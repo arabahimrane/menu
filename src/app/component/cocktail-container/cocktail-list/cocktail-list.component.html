@@ -1,0 +1,5 @@
+<h3 class="md-20">Liste des cocktails</h3>
+<ul class="list-primary mb-20">
+  <li (click)="SelectedCocktail(index)" *ngFor="let cocktail of cocktails; let index = index">{{ cocktail.name }}</li>
+</ul>
+<button class="btn btn-primary">Ajouter un cocktail</button>
